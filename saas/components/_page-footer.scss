@@ -1,0 +1,122 @@
+.footer {
+    background-color: var(--brand-backcolor3);
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .footer-raw {
+    display: flex;
+    align-items: baseline;
+  }
+  .adr-items {
+    flex: 0 0 25%;
+  }
+  .contact-list {
+    margin-top: 20px;
+    margin-top: 0;
+  }
+  .contact-list__item {
+    margin-top: 9px;
+    &:first-child {
+      margin-top: 0px;
+    }
+  }
+  .contact-list__adr {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: var(--brand-backcolor1);
+  }
+  .footer-list__mail {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #ffffff99;
+  }
+  .footer-list__tel {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #ffffff99;
+  }
+  .connect-us {
+    color: white;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    margin-right: 93px;
+  }
+  .connect-list {
+    display: flex;
+    margin-top: 20px;
+    gap: 10px;
+  }
+  .connect-list__link {
+    fill: white;
+    border-radius: 50%;
+    background-color: #ffffff1a;
+    padding: 12;
+    display: flex;
+    padding: 12px;
+    margin: 0px;
+    transition: color, background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover, &:focus {
+      background-color: #2196f3;
+    }
+  }
+  .mailing-list__header {
+    color: white;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-align: left;
+  }
+  .mailing-list__email {
+    margin-top: 20px;
+  }
+  .mailing-list__input {
+    background: none;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    padding: 15px 16px;
+    width: 358px;
+    margin-right: 8px;
+  }
+  .subscribe-button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #2196f3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    border-style: none;
+    padding-left: 28px;
+    padding-right: 28px;
+    cursor: pointer;
+  }
+  .subscribe-icon {
+    margin-left: 10px;
+    vertical-align: middle;
+  }
+  address {
+    margin-top: 20px;
+  }

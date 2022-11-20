@@ -1,0 +1,35 @@
+.features-block {
+    padding-top: 94px;
+  }
+  .features-list {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  .features-list__item {
+    list-style-type: none;
+    font-size: 14px;
+    text-align: left;
+    letter-spacing: 0.03em;
+    width: 270px;
+    vertical-align: top;
+  }
+  .features-list__iconwrap {
+    background-color: #f5f4fa;
+    border-radius: 5px;
+    padding: 25px 102px 25px 102px;
+  }
+  .features-list__header {
+    color: var(--brand-color1);
+    font-weight: 700;
+    line-height: 1.14;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-top: 30px;
+  }
+  .features-list__text {
+    color: var(--brand-color2);
+    line-height: 1.71;
+    margin-top: 10px;
+  }
