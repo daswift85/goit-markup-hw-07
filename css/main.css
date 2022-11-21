@@ -440,11 +440,9 @@ section {
   color: #2196f3;
   text-decoration: none;
 }
-
 .logo__onwhite {
   color: #000000;
 }
-
 .logo__onblack {
   color: #fff;
 }
@@ -622,17 +620,7 @@ header {
   -webkit-transition-property: background-color;
   transition-property: background-color;
 }
-
-.hero-section__button:hover {
-  background-color: #188ce8;
-  border-radius: 4px;
-  border-color: #188ce8;
-  color: var(--brand-backcolor1);
-  -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1490196078);
-          box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1490196078);
-}
-
-.hero-section__button:focus {
+.hero-section__button:hover, .hero-section__button:focus {
   background-color: #188ce8;
   border-radius: 4px;
   border-color: #188ce8;
@@ -715,7 +703,6 @@ header {
   position: relative;
   text-align: center;
 }
-
 .wwd__item:last-child {
   margin-right: 0px;
 }
@@ -761,7 +748,6 @@ header {
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 4px;
 }
-
 .about__item:last-child {
   margin-right: 0px;
 }
@@ -805,15 +791,8 @@ header {
   transition: color, background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   border-radius: 50%;
 }
-
-.icons-sm__link:hover {
-  background: #2196f3;
-  border-radius: 50%;
-  color: white;
-}
-
-.icons-sm__link:focus {
-  background: #2196f3;
+.icons-sm__link:hover, .icons-sm__link:focus {
+  background-color: #2196f3;
   border-radius: 50%;
   color: white;
 }
@@ -866,16 +845,6 @@ header {
   margin-top: 50px;
 }
 
-.clients__link:hover {
-  border: 1px solid #2196f3;
-  fill: #2196f3;
-}
-
-.clients__link:focus {
-  border: 1px solid #2196f3;
-  fill: #2196f3;
-}
-
 .clients__link {
   padding: 16px 32px 16px 32px;
   border: 1px solid #afb1b8;
@@ -890,8 +859,14 @@ header {
       -ms-flex-align: center;
           align-items: center;
   fill: #afb1b8;
-  -webkit-transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.clients__link:hover, .clients__link:focus {
+  border: 1px solid #2196f3;
+  fill: #2196f3;
 }
 
 .backdrop {
@@ -913,7 +888,6 @@ header {
   -webkit-transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .backdrop.is-hidden {
   opacity: 0;
   pointer-events: none;
@@ -967,9 +941,8 @@ header {
   -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .modal__btn:hover, .modal__btn:focus {
-  fill: #2196F3;
+  fill: #2196f3;
 }
 
 .form-callback {
@@ -1019,6 +992,9 @@ header {
   -webkit-transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.form-callback__item:focus, .form-callback__item:hover {
+  border: 1px solid #2196f3;
+}
 
 .form-callback__checkbox {
   font-family: "Roboto", sans-serif;
@@ -1043,16 +1019,10 @@ header {
   color: #2196f3;
 }
 
-.name, .phone, .email {
+.name,
+.phone,
+.email {
   padding-left: 42px;
-}
-
-.form-callback__item:focus, .form-callback__item:hover {
-  border: 1px solid #2196F3;
-}
-
-.form-callback__item:focus ~ .form-callback__icon, .form-callback__item:hover ~ .form-callback__icon {
-  fill: #2196F3;
 }
 
 .form-callback__icon {
@@ -1063,6 +1033,9 @@ header {
           transform: translateY(25%);
   -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.form-callback__item:focus ~ .form-callback__icon, .form-callback__item:hover ~ .form-callback__icon {
+  fill: #2196f3;
 }
 
 .form-text {
@@ -1262,7 +1235,6 @@ address {
 .project-nav__item {
   margin-right: 8px;
 }
-
 .project-nav__item:last-child {
   margin-right: 0px;
 }
@@ -1289,7 +1261,6 @@ address {
   transition: background-color, 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color, 250ms cubic-bezier(0.4, 0, 0.2, 1) color, 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow, 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color, 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color, 250ms cubic-bezier(0.4, 0, 0.2, 1) color, 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow, 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow;
 }
-
 .project-nav__button:hover, .project-nav__button:focus {
   background-color: var(--brand-color3);
   border-radius: 4px;
@@ -1331,12 +1302,6 @@ address {
   margin-top: 4px;
 }
 
-.portfolio-list__item:hover {
-  -webkit-box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.1607843137), 0px 4px 4px 0px rgba(0, 0, 0, 0.0588235294), 0px 1px 1px 0px rgba(0, 0, 0, 0.1215686275);
-          box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.1607843137), 0px 4px 4px 0px rgba(0, 0, 0, 0.0588235294), 0px 1px 1px 0px rgba(0, 0, 0, 0.1215686275);
-  cursor: pointer;
-}
-
 .portfolio-list__headtext {
   padding: 20px 24px 20px 24px;
   border: 1px solid #eeeeee;
@@ -1349,6 +1314,11 @@ address {
   transition: -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.portfolio-list__item:hover {
+  -webkit-box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.1607843137), 0px 4px 4px 0px rgba(0, 0, 0, 0.0588235294), 0px 1px 1px 0px rgba(0, 0, 0, 0.1215686275);
+          box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.1607843137), 0px 4px 4px 0px rgba(0, 0, 0, 0.0588235294), 0px 1px 1px 0px rgba(0, 0, 0, 0.1215686275);
+  cursor: pointer;
 }
 
 .portfolio-list__image {
@@ -1387,7 +1357,6 @@ address {
   text-align: left;
   padding: 63px 24px;
 }
-
 .portfolio-list__item:hover .portfolio-list__overlay-item {
   opacity: 1;
   -webkit-transform: translatey(0);

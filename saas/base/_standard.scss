@@ -7,10 +7,10 @@
   --brand-color3: #2196f3;
 }
 body {
-    font-family: "Roboto", sans-serif;
-    color: $color-text;
-    background-color: $color-1;
-  }
+  font-family: "Roboto", sans-serif;
+  color: $color-text;
+  background-color: $color-1;
+}
 
 a {
   text-decoration: none;
@@ -19,10 +19,10 @@ li {
   list-style-type: none;
 }
 .container {
-    width: 1200px;
-    margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px;
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .section {
   padding-top: 94px;

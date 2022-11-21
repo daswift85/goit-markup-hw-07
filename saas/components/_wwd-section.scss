@@ -21,10 +21,12 @@
   margin-right: 30px;
   position: relative;
   text-align: center;
+
+  &:last-child {
+    margin-right: 0px;
+  }
 }
-.wwd__item:last-child {
-  margin-right: 0px;
-}
+
 .wwd__itemoverlay {
   position: absolute;
   bottom: 0;

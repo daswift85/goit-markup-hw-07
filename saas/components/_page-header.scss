@@ -34,7 +34,8 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: color;
 
-  &:hover, &:focus {
+  &:hover,
+  &:focus {
     color: var(--brand-color3);
   }
 }
@@ -71,10 +72,10 @@
 }
 
 .top-contacts__icon {
-    margin-right: 10px;
-    vertical-align: middle;
-    fill: currentColor;
-  }
+  margin-right: 10px;
+  vertical-align: middle;
+  fill: currentColor;
+}
 .top-contacts__text {
   font-size: 14px;
   font-weight: 500;
@@ -87,12 +88,13 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: color;
 
-  &:hover, &:focus {
+  &:hover,
+  &:focus {
     color: var(--brand-color3);
   }
 }
 header {
-    border-bottom-color: #ececec;
-    border-bottom-width: 1px;
-    border-style: solid;
-  }
+  border-bottom-color: #ececec;
+  border-bottom-width: 1px;
+  border-style: solid;
+}

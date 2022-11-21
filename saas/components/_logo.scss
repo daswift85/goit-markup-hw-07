@@ -7,10 +7,11 @@
   text-align: left;
   color: #2196f3;
   text-decoration: none;
-}
-.logo__onwhite {
-  color: #000000;
-}
-.logo__onblack {
-  color: #fff;
+
+  &__onwhite {
+    color: #000000;
+  }
+  &__onblack {
+    color: #fff;
+  }
 }
